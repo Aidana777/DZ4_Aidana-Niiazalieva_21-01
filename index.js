@@ -21,9 +21,9 @@ function handleClick() {
     }
 }
 
-document.querySelector('.box').onmousemove = function(event) {
-    event = event || window.event; 
-    console.log(event); 
+document.querySelector('.box').onmousemove = function (event) {
+    event = event || window.event;
+    console.log(event);
     document.querySelector('.x').innerHTML = event.offsetX;
     document.querySelector('.y').innerHTML = event.offsetY;
 }
