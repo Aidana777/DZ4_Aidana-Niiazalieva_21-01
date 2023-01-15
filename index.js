@@ -21,7 +21,7 @@ function handleClick() {
     }
 }
 
-document.querySelector('.block').onmousemove = function(event) {
+document.querySelector('.box').onmousemove = function(event) {
     event = event || window.event; 
     console.log(event); 
     document.querySelector('.x').innerHTML = event.offsetX;
