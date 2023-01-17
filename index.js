@@ -1,3 +1,4 @@
+// 1
 const incrementBtn = document.querySelector('.increment');
 const decrementBtn = document.querySelector('.decrement',);
 const cleanBtn = document.querySelector('.cleanBtn');
@@ -20,7 +21,7 @@ function handleClick() {
         countTag.textContent = 0
     }
 }
-
+// 2
 document.querySelector('.box').onmousemove = function (event) {
     event = event || window.event;
     console.log(event);
